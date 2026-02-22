@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>For You 💖</title>
+  <style>
+    body {
+      background-color: #fff0f6;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 100px;
+    }
+    button {
+      padding: 15px 25px;
+      font-size: 18px;
+      border: none;
+      border-radius: 10px;
+      background-color: #ff4d6d;
+      color: white;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    #message {
+      font-size: 22px;
+      margin-top: 30px;
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>It’s officially your day 💖</h1>
+<button onclick="showLove()">Click to continue</button>
+
+<div id="message">
+  <p>Reason #1: I love the way you make me feel safe.</p>
+  <p>Reason #2: You make ordinary days special.</p>
+  <p>Reason #3: You are my favorite person.</p>
+</div>
+
+<script>
+  function showLove() {
+    document.getElementById("message").style.display = "block";
+  }
+</script>
+
+</body>
+</html>
